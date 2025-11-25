@@ -24,6 +24,18 @@
 
 Chipro consists of two complementary components:
 
+---
+
+## 📖 Documentation
+
+Detailed installation instructions, user guides, and advanced configuration tips are available in our official documentation:
+
+[📄 Chipro Installation & User Guide](https://mabrains.github.io/chipro-docs)
+
+> The installer simplifies setup, automatically pulling the Chipro container and launching all required services.
+
+---
+
 ### 🤖 1. The AI Chat Module
 
 Your personal design assistant — an **AI-driven conversational engineer** that understands your workflow and speaks your language. It provides several specialized design “flows”:
@@ -183,18 +195,6 @@ But here’s where it gets truly next-generation:
 
 This means your AI assistant isn’t just conversational — it’s **operational**.
 It can see, click, modify, and run tasks within your workspace — effectively bridging human-AI collaboration for circuit design.
-
----
-
-## 📖 Documentation
-
-Detailed installation instructions, user guides, and advanced configuration tips are available in our official documentation:
-
-[📄 Chipro Installation & User Guide](https://mabrains.github.io/chipro-docs)
-
-> The installer simplifies setup, automatically pulling the Chipro container and launching all required services.
-
----
 
 ## 🌟 Product Showcase
 
