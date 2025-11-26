@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="#-about-chipro">About</a> •
-  <a href="#installation-guide">Installation</a> •
+  <a href="#-documentation">Documentation</a> •
   <a href="#-product-showcase">Showcase</a> •
 </p>
 
@@ -20,9 +20,21 @@
 
 **Chipro** is an intelligent, modular Electronic Design Automation (EDA) environment built to unify AI-assisted design with a fully automated design management system. It simplifies the entire design process with one goal in mind:
 
-> _Streamline the chip design process to be simpler & faster then it ever was._
+> _Streamline the chip design process to be simpler and faster than ever before._
 
-Chipro is composed of two powerful and complementary components:
+Chipro consists of two complementary components:
+
+---
+
+## 📖 Documentation
+
+Detailed installation instructions, user guides, and advanced configuration tips are available in our official documentation:
+
+[📄 Chipro Installation & User Guide](https://mabrains.github.io/chipro-docs)
+
+> The installer simplifies setup, automatically pulling the Chipro container and launching all required services.
+
+---
 
 ### 🤖 1. The AI Chat Module
 
@@ -183,147 +195,6 @@ But here’s where it gets truly next-generation:
 
 This means your AI assistant isn’t just conversational — it’s **operational**.
 It can see, click, modify, and run tasks within your workspace — effectively bridging human-AI collaboration for circuit design.
-
----
-
-> _The Design Manager is where structure meets simplicity.
-> You don’t waste time installing tools, fixing environment variables, or chasing dependencies.
-> You just design — and everything else, from the workspace to the AI automation, is handled for you._
-
----
-
-## Installation Guide
-
-The **Chipro Installer** is a sleek, terminal-based setup assistant that takes care of everything for you — no manual steps, no complex configuration.
-
-### 📋 Prerequisites
-
-Make sure you have one of the following container runtimes installed and running:
-
-- [![Docker][Docker.com]][Docker-url]
-- [![Podman][Podman.io]][Podman-url]
-
-### 📦 Step 0 — Clone the Repository
-
-Before installing, you’ll need to **clone the Chipro Installer repository** to your local machine.
-This gives you access to all necessary files — including the installer script, configuration templates, and resource data.
-
-#### 🔹 Using HTTPS
-
-```bash
-git clone https://github.com/mabrains/Chipro.git
-cd Chipro
-```
-
-> **Tip:** Make sure you’re inside the `Chipro` directory before running the installer — this is where all setup scripts and environment files reside.
-
-<p align="center">
-  <img src="images/clone_repo.png" width="80%">
-</p>
-
-Once cloned, you’re ready to move on to the next step: downloading and launching the installer.
-
----
-
-### 🧩 Step 1 — Download the Installer
-
-Grab the latest version from the [**Releases Page**](https://github.com/your-username/chipro_installer/releases).
-
-```bash
-# Example for Linux/macOS
-cd  linux
-chmod +x ./installer
-./installer
-```
-
-or on Windows (not fully supported):
-
-1. Open the folder corresponding to your device architecture
-2. Run the `installer.exe` file
-
-<p align="center">
-  <img src="images/installer_1.png" width="80%">
-</p>
-
----
-
-### ⚙️ Step 2 — Configure Installation
-
-You’ll be guided through an interactive setup where you’ll define:
-
-| Parameter     | Description                                         | Example        |
-| ------------- | --------------------------------------------------- | -------------- |
-| **API Key**   | Your personal Chipro API key to access AI services. | `mb-123abc...` |
-| **User Area** | The path to the volume of user area                 | `/home/user`   |
-| **VNC Port**  | Local VNC access port for the GUI tools.            | `6080`         |
-| **App Port**  | Local access port for Chipro’s main application.    | `8080`         |
-
-> The installer automatically checks for port availability and resolves conflicts.
-
-<p align="center">
-  <img src="images/installer_2.png" width="80%">
-</p>
-
----
-
-### 🔑 How to Obtain Your API Key
-
-Before running the installer, you’ll need a **Chipro API key** to enable access to the AI Chat Module and design automation services.
-
-1. **Visit [Mabrains.com](https://mabrains.com)**
-   Open the official Mabrains website in your browser.
-
-2. **Create an Account**
-
-   - Click on **Sign Up** and fill in your details.
-   - Confirm your email address to activate your account.
-
-3. **Access the API Keys Page in Your Account**
-
-   - Once logged in, navigate to the **Dashboard → API Keys** section.
-   - Click **Generate New API Key** to create your personal key.
-   - Copy the key to your clipboard — it will look something like:
-
-     ```
-     mb-3ae4x8f02b1f4f09...
-     ```
-
-> **Note:** Keep your API key secure — it’s unique to your account and grants access to all integrated AI providers configured through your Chipro workspace.
-
----
-
-### 🚀 Step 3 — Deploy Chipro
-
-Once configured, the installer will:
-
-1. Detect your container runtime (Docker or Podman).
-2. Pull the latest **Chipro** image.
-3. Launch all required services.
-4. Display access URLs and container information.
-
-> Within minutes, Chipro is live — no manual configuration needed.
-
----
-
-### ✅ Step 4 — Verify Your Setup
-
-Once complete, you’ll be greeted with a success summary showing:
-
-- Container ID
-- Application URL
-- VNC URL
-- Mapped Ports
-
-Example output:
-
-```bash
-✔ Chipro Deployment Complete!
-Container ID: 3d9a4b27c12f
-App URL: http://localhost:8000
-VNC URL: http://localhost:6080
-```
-
----
 
 ## 🌟 Product Showcase
 
