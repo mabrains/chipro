@@ -1,0 +1,163 @@
+Chipro License Agreement  
+Version 1.0 — Last Updated: December 03, 2025  
+SPDX-License-Identifier: LicenseRef-Chipro-Proprietary
+
+Copyright (c) 2025
+Mabrains LLC / Mabrains Company
+All rights reserved.
+
+This license governs the use of the Chipro software, source code, models,
+documentation, and related materials (collectively, the “Software”) made
+available in this repository by Mabrains LLC / Mabrains Company (“Mabrains”).
+
+By downloading, accessing, installing, or using the Software, you agree to be
+bound by this License Agreement, the Chipro Terms of Use, and the Chipro End
+User License Agreement (EULA). If you do not agree, you must not use the Software.
+
+-------------------------------------------------------------------------------
+1. LICENSE GRANT
+-------------------------------------------------------------------------------
+
+Subject to your subscription tier (Free, Plus, Advance, or Enterprise) and 
+compliance with this Agreement:
+
+(a) Free Tier  
+    - Non-exclusive, non-transferable license for **non-commercial, educational,
+      or personal prototyping use only**.  
+    - You may not use the Software to design chips for commercial sale or mass
+      production.  
+    - You grant Mabrains a perpetual, royalty-free license to use your User
+      Content for debugging, service improvement, and AI model training.
+
+(b) Plus Tier  
+    - License for commercial use of the Software for chip design, verification,
+      and manufacturing.  
+    - You grant Mabrains a perpetual, royalty-free license to use your User
+      Content for debugging, service improvement, and AI model training.
+
+(c) Advance / Enterprise Tier  
+    - License for commercial and enterprise use.  
+    - **No User Content from this tier is used to train public AI models.**
+    - Data is processed solely as needed to provide the Service.
+
+Nothing in this Agreement transfers ownership of the Software. The Software is
+licensed, not sold.
+
+-------------------------------------------------------------------------------
+2. RESTRICTIONS
+-------------------------------------------------------------------------------
+
+Except as explicitly permitted by an applicable open-source component license:
+
+You may NOT:
+
+• Reverse engineer, decompile, or extract source code or model weights of the 
+  proprietary portions of the Software.  
+  (This restriction does *not* apply to GPLv3 or other open-source components.)
+
+• Modify, sublicense, rent, lease, lend, sell, or redistribute the proprietary 
+  portions of the Software.
+
+• Remove proprietary notices or branding.
+
+• Use the Software to develop a competing EDA tool or AI-based design assistant.
+
+• Share your account or circumvent subscription restrictions.
+
+-------------------------------------------------------------------------------
+3. OPEN-SOURCE COMPONENTS
+-------------------------------------------------------------------------------
+
+The Software includes or links to third-party components licensed under
+open-source licenses (including but not limited to **GPLv3, LGPL, Apache-2.0,
+MIT**, or others).
+
+These components are governed solely by their respective licenses.
+
+Under the GPLv3, you have the right to:
+
+• Access source code of GPL components,  
+• Modify them,  
+• Reverse engineer them as permitted by the GPL,  
+• Use them separately from the proprietary Software.
+
+Nothing in this Agreement restricts any rights granted to you by open-source
+licenses.
+
+To request source code for GPL components, email: support@mabrains.com.
+
+-------------------------------------------------------------------------------
+4. USER CONTENT
+-------------------------------------------------------------------------------
+
+“User Content” includes designs, netlists, layouts, chat logs, and any data
+uploaded or generated while using the Software.
+
+(a) Free and Plus tiers  
+    You grant Mabrains a worldwide, royalty-free, perpetual, irrevocable license
+    to use, reproduce, analyze, adapt, and process your User Content for:  
+    • debugging the Service,  
+    • improving and training AI Models,  
+    • providing design services to other clients.
+
+(b) Advance / Private tiers  
+    User Content is processed solely to operate the Service.  
+    It is not used for training public AI models.
+
+You retain ownership of your User Content.
+
+-------------------------------------------------------------------------------
+5. WARRANTY DISCLAIMER
+-------------------------------------------------------------------------------
+
+THE SOFTWARE IS PROVIDED “AS IS” WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR
+IMPLIED. MABRAINS DISCLAIMS ALL WARRANTIES INCLUDING MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+AI output may be probabilistic or inaccurate. You are responsible for verifying
+and validating all designs before fabrication or manufacturing.
+
+-------------------------------------------------------------------------------
+6. LIMITATION OF LIABILITY
+-------------------------------------------------------------------------------
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, MABRAINS SHALL NOT BE LIABLE FOR ANY
+INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES,
+INCLUDING LOSS OF PROFITS, DATA, OR GOODWILL.
+
+-------------------------------------------------------------------------------
+7. TERMINATION
+-------------------------------------------------------------------------------
+
+This Agreement terminates automatically if you fail to comply with its terms.
+Upon termination, you must stop all use of the Software and destroy all copies.
+
+-------------------------------------------------------------------------------
+8. GOVERNING LAW
+-------------------------------------------------------------------------------
+
+This Agreement is governed by the laws of the State of Wyoming, USA, without 
+regard to conflict-of-law principles.
+
+-------------------------------------------------------------------------------
+9. RELATED DOCUMENTS (INTEGRAL TO THIS LICENSE)
+-------------------------------------------------------------------------------
+
+These documents form part of the governing terms:
+
+• Chipro Terms of Use  
+• Chipro End User License Agreement (EULA)  
+• Chipro Privacy Policy  
+• Chipro Enterprise SLA  
+
+These documents are available at:  
+https://www.mabrains.com/legal/chipro   (or the applicable documentation site)
+
+-------------------------------------------------------------------------------
+10. CONTACT
+-------------------------------------------------------------------------------
+
+Mabrains LLC / Mabrains Company  
+USA: 1908 Thomes Ave, STE 12607, Cheyenne, WY 82001  
+Egypt: 33 Helipolis Gardens, Sheraton, Cairo  
+Email: support@mabrains.com
