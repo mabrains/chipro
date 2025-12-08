@@ -206,7 +206,7 @@ A visual journey through Chipro’s power and versatility.
 
 |     The Design Manager     |            PDK Installation             |
 | :------------------------: | :-------------------------------------: |
-| ![Chat](images/image4.png) | ![Simulation](images/pdk_installer.png) |
+| ![Chat](images/image4.png) | ![Simulation](images/image3.png) |
 
 |      KLayout Integration      |   Xschem Schematic Editing   |
 | :---------------------------: | :--------------------------: |
